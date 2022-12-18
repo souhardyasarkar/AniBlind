@@ -1,0 +1,240 @@
+#title {
+  background-color: #00FFAB;
+  color: #fff;
+
+}
+.container-fluid{
+  padding: 3% 15% 5%;
+}
+body {
+  font-family: "Montserrat";
+
+}
+h1 {
+  font-family: "Charmonman";
+  font-size: 5rem;
+  font-style: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+h2 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-weight: 800;
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* NAVIGATION-BAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+  color: #354259;
+}
+
+
+/* BOWNLOAD-BUTTON */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.web-start {
+  margin: 10% 5% 10% 0;
+
+}
+
+
+/*TITLE-IMAGE */
+.title-image {
+  width: 40%;
+
+
+  position: absolute;
+  right: 5%;
+  bottom: 25%;
+
+
+
+}
+
+/* FEATURES */
+
+#features {
+  padding: 5% 15%;
+  background-color: #E1FFB1;
+  position: relative;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  font-size: 1.5rem;
+}
+.feature-text {
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+}
+
+.icon {
+  color: #1C6758;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* TESTEMONIAL-SECTION */
+#testimonials {
+
+  text-align: center;
+  background-color: #14C38E;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 25%;
+  height: 30%;
+  margin: 10px;
+}
+
+
+
+
+.testimonial-text {
+  font-family: "Style Script";
+  font-size: 5rem;
+  padding: 3% 5% 3% 5%;
+}
+
+#press {
+  background-color: #14C38E;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  color: #1C6758;
+  background-color: #fff;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+.pricing-text1 {
+  font-family: "Merienda One";
+  font-size: 5rem;
+}
+
+.pricing-text2 {
+  font-family: "EB Garamond";
+  font-size: 2rem;
+  color: #1C6758;
+}
+.pricing-text3 {
+  font-family: "Aladin";
+}
+.pricing-text4 {
+  font-family: "Merienda One";
+}
+
+.sign-dark {
+  background-color: #1C6758;
+}
+
+.sign-light {
+  color: #1C6758;
+  outline-color: #1C6758;
+}
+ .card {
+   outline-color: #1C6758;
+   background-color: #F4FCD9;
+ }
+
+
+#cta {
+  background-color: #00FFAB;
+  color: #1C6758;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.cta-button {
+  margin: 2% 2% 2% 2%;
+
+
+  font-size: 2rem;
+}
+.cta-heading {
+  font-family: "Norican";
+  padding: 5% 10%;
+  font-size: 6rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  color: #1C6758;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1020px){
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
